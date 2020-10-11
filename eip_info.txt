@@ -1,0 +1,2271 @@
+Last login: Tue Sep 29 17:03:15 on ttys001
+%                                                                                                                        jburt@Johns-MacBook-Pro ~ % sudo nmap --script enip-info -sU -p 44818 162.117.97.0/24sudo nmap --script enip-info -sU -p 44818 162.117.97.0/24
+Password:
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-09-29 18:27 CDT
+Nmap scan report for 162.117.97.1
+Host is up (0.011s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.4
+Host is up (0.011s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 1C:DE:A7:69:49:41 (Cisco Systems)
+
+Nmap scan report for 162.117.97.7
+Host is up (0.012s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:23:34:DD:58:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.8
+Host is up (0.011s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:23:34:DD:43:41 (Cisco Systems)
+
+Nmap scan report for 162.117.97.9
+Host is up (0.011s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: D0:57:4C:F2:7A:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.11
+Host is up (0.018s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1783-BMS20CGP Stratix 5700
+|   serialNumber: 0x800849b3
+|   productCode: 246
+|   revision: 2.1
+|   status: 0x0030
+|   state: 0x03
+|_  deviceIp: 162.117.97.11
+MAC Address: E4:90:69:9B:0D:C1 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.15
+Host is up (0.0044s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:50:56:A8:C6:90 (VMware)
+
+Nmap scan report for 162.117.97.16
+Host is up (0.0047s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:50:56:A8:78:FD (VMware)
+
+Nmap scan report for 162.117.97.17
+Host is up (0.0085s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:50:56:A8:35:67 (VMware)
+
+Nmap scan report for 162.117.97.18
+Host is up (0.0085s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:50:56:A8:21:34 (VMware)
+
+Nmap scan report for 162.117.97.19
+Host is up (0.0068s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:50:56:A8:0F:00 (VMware)
+
+Nmap scan report for 162.117.97.20
+Host is up (0.0071s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:50:56:A8:12:C3 (VMware)
+
+Nmap scan report for 162.117.97.21
+Host is up (0.0087s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:50:56:A8:3F:8D (VMware)
+
+Nmap scan report for 162.117.97.22
+Host is up (0.011s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:50:56:A8:A5:7A (VMware)
+
+Nmap scan report for 162.117.97.23
+Host is up (0.011s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:50:56:A8:03:2E (VMware)
+
+Nmap scan report for 162.117.97.24
+Host is up (0.012s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:50:56:A8:FE:94 (VMware)
+
+Nmap scan report for 162.117.97.25
+Host is up (0.012s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:50:56:A8:D8:E8 (VMware)
+
+Nmap scan report for 162.117.97.26
+Host is up (0.12s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:50:56:A8:4F:3C (VMware)
+
+Nmap scan report for 162.117.97.29
+Host is up (0.0059s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:50:56:A8:B6:96 (VMware)
+
+Nmap scan report for 162.117.97.30
+Host is up (0.0061s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:50:56:A8:98:9A (VMware)
+
+Nmap scan report for 162.117.97.40
+Host is up (0.012s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1756-EN2T/C
+|   serialNumber: 0x008d5a60
+|   productCode: 166
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 162.117.97.40
+MAC Address: 00:1D:9C:BC:CF:69 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.50
+Host is up (0.11s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1756-ENBT/A
+|   serialNumber: 0x007f614f
+|   productCode: 58
+|   revision: 6.1
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 162.117.97.50
+MAC Address: 00:00:BC:D2:2F:45 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.55
+Host is up (0.016s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Programmable Logic Controller (14)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1769-L30ERM/A LOGIX5330ERM
+|   serialNumber: 0x60262580
+|   productCode: 156
+|   revision: 20.12
+|   status: 0x0030
+|   state: 0x03
+|_  deviceIp: 162.117.97.55
+MAC Address: 00:00:BC:CE:41:07 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.57
+Host is up (0.0053s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENTR/A
+|   serialNumber: 0x606de094
+|   productCode: 261
+|   revision: 1.14
+|   status: 0x0061
+|   state: 0x03
+|_  deviceIp: 162.117.97.57
+MAC Address: E4:90:69:A9:9A:16 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.60
+Host is up (0.0057s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1756-ENBT/A
+|   serialNumber: 0x007a7842
+|   productCode: 58
+|   revision: 6.1
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 162.117.97.60
+MAC Address: 00:00:BC:C8:50:36 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.62
+Host is up (0.0079s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: PowerFlex 525 (150)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 525 3P 460V   7.5HP
+|   serialNumber: 0xe0221719
+|   productCode: 9
+|   revision: 5.2
+|   status: 0x0061
+|   state: 00
+|_  deviceIp: 162.117.97.62
+MAC Address: 18:4C:08:F2:63:71 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.63
+Host is up (0.0084s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: PowerFlex 525 (150)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 525 3P 460V   7.5HP
+|   serialNumber: 0x80892f92
+|   productCode: 9
+|   revision: 5.1
+|   status: 0x0061
+|   state: 00
+|_  deviceIp: 162.117.97.63
+MAC Address: F4:54:33:F7:59:2C (Rockwell Automation)
+
+Nmap scan report for 162.117.97.70
+Host is up (0.015s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1756-ENBT/A
+|   serialNumber: 0x00121e12
+|   productCode: 58
+|   revision: 4.8
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 162.117.97.70
+MAC Address: 00:00:BC:05:0F:B4 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.80
+Host is up (0.053s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1756-ENBT/A
+|   serialNumber: 0x006979b1
+|   productCode: 58
+|   revision: 4.8
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 162.117.97.80
+MAC Address: 00:00:BC:5F:90:DB (Rockwell Automation)
+
+Nmap scan report for 162.117.97.89
+Host is up (0.054s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:26:2D:04:6F:BE (Wistron)
+
+Nmap scan report for 162.117.97.90
+Host is up (0.055s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:0C:29:6F:8F:C5 (VMware)
+
+Nmap scan report for 162.117.97.91
+Host is up (0.11s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENTR/A
+|   serialNumber: 0x60309a30
+|   productCode: 261
+|   revision: 1.11
+|   status: 0x0061
+|   state: 0x03
+|_  deviceIp: 162.117.97.91
+MAC Address: E4:90:69:9C:B7:17 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.92
+Host is up (0.15s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Unknown Device Type (123)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 70 EC  480V   5.0A
+|   serialNumber: 0x201a745f
+|   productCode: 50
+|   revision: 3.3
+|   status: 0x0061
+|   state: 0xff
+|_  deviceIp: 162.117.97.92
+MAC Address: 00:00:BC:56:42:86 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.93
+Host is up (0.024s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Unknown Device Type (123)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 70 EC  480V  40A
+|   serialNumber: 0x201a3171
+|   productCode: 50
+|   revision: 3.3
+|   status: 0x0061
+|   state: 0xff
+|_  deviceIp: 162.117.97.93
+MAC Address: 00:00:BC:32:FD:23 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.94
+Host is up (0.088s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1756-EN2T/C
+|   serialNumber: 0x008d5ad2
+|   productCode: 166
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 162.117.97.94
+MAC Address: 00:1D:9C:BC:CF:DB (Rockwell Automation)
+
+Nmap scan report for 162.117.97.100
+Host is up (0.011s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Human-Machine Interface (24)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PanelView Plus_6 1500
+|   serialNumber: 0x008a212d
+|   productCode: 51
+|   revision: 3.1
+|   status: 0x0060
+|   state: 0xff
+|_  deviceIp: 162.117.97.100
+MAC Address: 00:1D:9C:BB:D1:42 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.101
+Host is up (0.0068s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Human-Machine Interface (24)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PanelView-Plus
+|   serialNumber: 0xb8756700
+|   productCode: 19
+|   revision: 3.23
+|   status: 0x0060
+|   state: 0xff
+|_  deviceIp: 162.117.97.101
+MAC Address: 00:00:BC:5E:B8:D0 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.102
+Host is up (0.012s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Human-Machine Interface (24)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PanelView-Plus
+|   serialNumber: 0x7e825c00
+|   productCode: 19
+|   revision: 3.23
+|   status: 0x0060
+|   state: 0xff
+|_  deviceIp: 162.117.97.102
+MAC Address: 00:00:BC:30:27:7F (Rockwell Automation)
+
+Nmap scan report for 162.117.97.105
+Host is up (0.012s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Human-Machine Interface (24)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PanelView-Plus
+|   serialNumber: 0x68d26300
+|   productCode: 19
+|   revision: 3.23
+|   status: 0x0060
+|   state: 0xff
+|_  deviceIp: 162.117.97.105
+MAC Address: 00:00:BC:5D:0A:A3 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.110
+Host is up (0.035s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1756-ENBT/A
+|   serialNumber: 0x00121e7f
+|   productCode: 58
+|   revision: 1.30
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 162.117.97.110
+MAC Address: 00:00:BC:05:10:21 (Rockwell Automation)
+
+Nmap scan report for 162.117.97.124
+Host is up (0.029s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 9C:8E:99:F4:E1:86 (Hewlett Packard)
+
+Nmap scan report for 162.117.97.128
+Host is up (0.031s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.129
+Host is up (0.031s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.130
+Host is up (0.031s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.131
+Host is up (0.031s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.132
+Host is up (0.038s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.133
+Host is up (0.038s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.134
+Host is up (0.038s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.135
+Host is up (0.039s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.136
+Host is up (0.039s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.137
+Host is up (0.039s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.138
+Host is up (0.039s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.139
+Host is up (0.040s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.140
+Host is up (0.040s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.141
+Host is up (0.040s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.142
+Host is up (0.040s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.143
+Host is up (0.11s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.144
+Host is up (0.11s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.145
+Host is up (0.018s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.146
+Host is up (0.018s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.147
+Host is up (0.018s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.148
+Host is up (0.018s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.149
+Host is up (0.019s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.150
+Host is up (0.019s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.151
+Host is up (0.11s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.152
+Host is up (0.11s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.153
+Host is up (0.048s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.154
+Host is up (0.048s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.155
+Host is up (0.048s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.156
+Host is up (0.048s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.157
+Host is up (0.049s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.158
+Host is up (0.049s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.159
+Host is up (0.049s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.160
+Host is up (0.049s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.161
+Host is up (0.049s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.162
+Host is up (0.050s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.163
+Host is up (0.050s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.164
+Host is up (0.051s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.165
+Host is up (0.051s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.166
+Host is up (0.052s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.167
+Host is up (0.052s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.168
+Host is up (0.053s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.169
+Host is up (0.053s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.170
+Host is up (0.053s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.171
+Host is up (0.053s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.172
+Host is up (0.053s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.173
+Host is up (0.054s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.174
+Host is up (0.054s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.175
+Host is up (0.054s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.176
+Host is up (0.054s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.177
+Host is up (0.055s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.178
+Host is up (0.055s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.179
+Host is up (0.055s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.180
+Host is up (0.059s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.181
+Host is up (0.061s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.182
+Host is up (0.061s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.183
+Host is up (0.061s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.184
+Host is up (0.061s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.185
+Host is up (0.062s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.186
+Host is up (0.062s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.187
+Host is up (0.062s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.188
+Host is up (0.062s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.189
+Host is up (0.062s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.190
+Host is up (0.063s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.191
+Host is up (0.063s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.192
+Host is up (0.063s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.193
+Host is up (0.064s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.194
+Host is up (0.064s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.195
+Host is up (0.064s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.196
+Host is up (0.064s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.197
+Host is up (0.065s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.198
+Host is up (0.065s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.199
+Host is up (0.065s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.200
+Host is up (0.065s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.201
+Host is up (0.11s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.202
+Host is up (0.062s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.203
+Host is up (0.043s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.204
+Host is up (0.043s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.205
+Host is up (0.062s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.206
+Host is up (0.062s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.207
+Host is up (0.062s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.208
+Host is up (0.083s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.209
+Host is up (0.031s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.210
+Host is up (0.031s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.211
+Host is up (0.031s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.212
+Host is up (0.032s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.213
+Host is up (0.032s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.214
+Host is up (0.032s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.215
+Host is up (0.033s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.216
+Host is up (0.033s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.217
+Host is up (0.033s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.218
+Host is up (0.033s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.219
+Host is up (0.033s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.220
+Host is up (0.034s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.221
+Host is up (0.034s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.222
+Host is up (0.034s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.223
+Host is up (0.034s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.224
+Host is up (0.035s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.225
+Host is up (0.035s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.226
+Host is up (0.035s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.227
+Host is up (0.035s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.228
+Host is up (0.035s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.229
+Host is up (0.036s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.230
+Host is up (0.036s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.231
+Host is up (0.036s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.232
+Host is up (0.036s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.233
+Host is up (0.037s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.234
+Host is up (0.037s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.235
+Host is up (0.037s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.236
+Host is up (0.037s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.237
+Host is up (0.037s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.238
+Host is up (0.038s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.239
+Host is up (0.038s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.240
+Host is up (0.038s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.241
+Host is up (0.038s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.242
+Host is up (0.039s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.243
+Host is up (0.039s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.244
+Host is up (0.039s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.245
+Host is up (0.039s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.246
+Host is up (0.084s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.247
+Host is up (0.063s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.248
+Host is up (0.029s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.249
+Host is up (0.13s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.250
+Host is up (0.13s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.251
+Host is up (0.13s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.252
+Host is up (0.13s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.253
+Host is up (0.13s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.254
+Host is up (0.13s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.255
+Host is up (0.13s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C1 (Cisco Systems)
+
+Nmap scan report for 162.117.97.3
+Host is up (0.000091s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+
+Nmap done: 256 IP addresses (170 hosts up) scanned in 14.93 seconds
+%                                                                                                                        jburt@Johns-MacBook-Pro ~ % sudo nmap --script enip-info -sU -p 44818 162.117.97.0/24 -162.117.97.0/24o162.117.97.0/24G162.117.97.0/24 162.117.97.0/240162.117.97.0/24 162.117.97.0/24  -162.117.97.0/24 162.117.97.0/24
+# Nmap 7.80 scan initiated Tue Sep 29 18:28:28 2020 as: nmap --script enip-info -sU -p 44818 -oG - 162.117.97.0/24
+Host: 162.117.97.1 ()Status: Up
+Host: 162.117.97.1 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.4 ()Status: Up
+Host: 162.117.97.4 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.7 ()Status: Up
+Host: 162.117.97.7 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.8 ()Status: Up
+Host: 162.117.97.8 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.9 ()Status: Up
+Host: 162.117.97.9 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.11 ()Status: Up
+Host: 162.117.97.11 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.15 ()Status: Up
+Host: 162.117.97.15 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.16 ()Status: Up
+Host: 162.117.97.16 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.17 ()Status: Up
+Host: 162.117.97.17 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.18 ()Status: Up
+Host: 162.117.97.18 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.19 ()Status: Up
+Host: 162.117.97.19 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.20 ()Status: Up
+Host: 162.117.97.20 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.21 ()Status: Up
+Host: 162.117.97.21 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.22 ()Status: Up
+Host: 162.117.97.22 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.23 ()Status: Up
+Host: 162.117.97.23 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.24 ()Status: Up
+Host: 162.117.97.24 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.25 ()Status: Up
+Host: 162.117.97.25 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.26 ()Status: Up
+Host: 162.117.97.26 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.29 ()Status: Up
+Host: 162.117.97.29 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.30 ()Status: Up
+Host: 162.117.97.30 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.40 ()Status: Up
+Host: 162.117.97.40 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.50 ()Status: Up
+Host: 162.117.97.50 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.55 ()Status: Up
+Host: 162.117.97.55 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.57 ()Status: Up
+Host: 162.117.97.57 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.60 ()Status: Up
+Host: 162.117.97.60 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.62 ()Status: Up
+Host: 162.117.97.62 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.63 ()Status: Up
+Host: 162.117.97.63 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.70 ()Status: Up
+Host: 162.117.97.70 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.80 ()Status: Up
+Host: 162.117.97.80 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.89 ()Status: Up
+Host: 162.117.97.89 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.90 ()Status: Up
+Host: 162.117.97.90 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.91 ()Status: Up
+Host: 162.117.97.91 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.92 ()Status: Up
+Host: 162.117.97.92 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.93 ()Status: Up
+Host: 162.117.97.93 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.94 ()Status: Up
+Host: 162.117.97.94 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.100 ()Status: Up
+Host: 162.117.97.100 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.101 ()Status: Up
+Host: 162.117.97.101 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.102 ()Status: Up
+Host: 162.117.97.102 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.105 ()Status: Up
+Host: 162.117.97.105 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.110 ()Status: Up
+Host: 162.117.97.110 ()Ports: 44818/open/udp//EtherNet-IP-2///
+Host: 162.117.97.124 ()Status: Up
+Host: 162.117.97.124 ()Ports: 44818/closed/udp//EtherNetIP-2///
+Host: 162.117.97.128 ()Status: Up
+Host: 162.117.97.128 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.129 ()Status: Up
+Host: 162.117.97.129 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.130 ()Status: Up
+Host: 162.117.97.130 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.131 ()Status: Up
+Host: 162.117.97.131 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.132 ()Status: Up
+Host: 162.117.97.132 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.133 ()Status: Up
+Host: 162.117.97.133 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.134 ()Status: Up
+Host: 162.117.97.134 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.135 ()Status: Up
+Host: 162.117.97.135 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.136 ()Status: Up
+Host: 162.117.97.136 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.137 ()Status: Up
+Host: 162.117.97.137 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.138 ()Status: Up
+Host: 162.117.97.138 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.139 ()Status: Up
+Host: 162.117.97.139 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.140 ()Status: Up
+Host: 162.117.97.140 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.141 ()Status: Up
+Host: 162.117.97.141 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.142 ()Status: Up
+Host: 162.117.97.142 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.143 ()Status: Up
+Host: 162.117.97.143 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.144 ()Status: Up
+Host: 162.117.97.144 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.145 ()Status: Up
+Host: 162.117.97.145 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.146 ()Status: Up
+Host: 162.117.97.146 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.147 ()Status: Up
+Host: 162.117.97.147 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.148 ()Status: Up
+Host: 162.117.97.148 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.149 ()Status: Up
+Host: 162.117.97.149 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.150 ()Status: Up
+Host: 162.117.97.150 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.151 ()Status: Up
+Host: 162.117.97.151 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.152 ()Status: Up
+Host: 162.117.97.152 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.153 ()Status: Up
+Host: 162.117.97.153 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.154 ()Status: Up
+Host: 162.117.97.154 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.155 ()Status: Up
+Host: 162.117.97.155 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.156 ()Status: Up
+Host: 162.117.97.156 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.157 ()Status: Up
+Host: 162.117.97.157 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.158 ()Status: Up
+Host: 162.117.97.158 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.159 ()Status: Up
+Host: 162.117.97.159 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.160 ()Status: Up
+Host: 162.117.97.160 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.161 ()Status: Up
+Host: 162.117.97.161 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.162 ()Status: Up
+Host: 162.117.97.162 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.163 ()Status: Up
+Host: 162.117.97.163 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.164 ()Status: Up
+Host: 162.117.97.164 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.165 ()Status: Up
+Host: 162.117.97.165 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.166 ()Status: Up
+Host: 162.117.97.166 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.167 ()Status: Up
+Host: 162.117.97.167 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.168 ()Status: Up
+Host: 162.117.97.168 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.169 ()Status: Up
+Host: 162.117.97.169 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.170 ()Status: Up
+Host: 162.117.97.170 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.171 ()Status: Up
+Host: 162.117.97.171 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.172 ()Status: Up
+Host: 162.117.97.172 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.173 ()Status: Up
+Host: 162.117.97.173 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.174 ()Status: Up
+Host: 162.117.97.174 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.175 ()Status: Up
+Host: 162.117.97.175 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.176 ()Status: Up
+Host: 162.117.97.176 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.177 ()Status: Up
+Host: 162.117.97.177 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.178 ()Status: Up
+Host: 162.117.97.178 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.179 ()Status: Up
+Host: 162.117.97.179 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.180 ()Status: Up
+Host: 162.117.97.180 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.181 ()Status: Up
+Host: 162.117.97.181 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.182 ()Status: Up
+Host: 162.117.97.182 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.183 ()Status: Up
+Host: 162.117.97.183 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.184 ()Status: Up
+Host: 162.117.97.184 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.185 ()Status: Up
+Host: 162.117.97.185 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.186 ()Status: Up
+Host: 162.117.97.186 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.187 ()Status: Up
+Host: 162.117.97.187 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.188 ()Status: Up
+Host: 162.117.97.188 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.189 ()Status: Up
+Host: 162.117.97.189 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.190 ()Status: Up
+Host: 162.117.97.190 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.191 ()Status: Up
+Host: 162.117.97.191 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.192 ()Status: Up
+Host: 162.117.97.192 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.193 ()Status: Up
+Host: 162.117.97.193 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.194 ()Status: Up
+Host: 162.117.97.194 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.195 ()Status: Up
+Host: 162.117.97.195 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.196 ()Status: Up
+Host: 162.117.97.196 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.197 ()Status: Up
+Host: 162.117.97.197 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.198 ()Status: Up
+Host: 162.117.97.198 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.199 ()Status: Up
+Host: 162.117.97.199 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.200 ()Status: Up
+Host: 162.117.97.200 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.201 ()Status: Up
+Host: 162.117.97.201 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.202 ()Status: Up
+Host: 162.117.97.202 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.203 ()Status: Up
+Host: 162.117.97.203 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.204 ()Status: Up
+Host: 162.117.97.204 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.205 ()Status: Up
+Host: 162.117.97.205 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.206 ()Status: Up
+Host: 162.117.97.206 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.207 ()Status: Up
+Host: 162.117.97.207 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.208 ()Status: Up
+Host: 162.117.97.208 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.209 ()Status: Up
+Host: 162.117.97.209 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.210 ()Status: Up
+Host: 162.117.97.210 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.211 ()Status: Up
+Host: 162.117.97.211 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.212 ()Status: Up
+Host: 162.117.97.212 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.213 ()Status: Up
+Host: 162.117.97.213 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.214 ()Status: Up
+Host: 162.117.97.214 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.215 ()Status: Up
+Host: 162.117.97.215 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.216 ()Status: Up
+Host: 162.117.97.216 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.217 ()Status: Up
+Host: 162.117.97.217 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.218 ()Status: Up
+Host: 162.117.97.218 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.219 ()Status: Up
+Host: 162.117.97.219 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.220 ()Status: Up
+Host: 162.117.97.220 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.221 ()Status: Up
+Host: 162.117.97.221 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.222 ()Status: Up
+Host: 162.117.97.222 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.223 ()Status: Up
+Host: 162.117.97.223 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.224 ()Status: Up
+Host: 162.117.97.224 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.225 ()Status: Up
+Host: 162.117.97.225 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.226 ()Status: Up
+Host: 162.117.97.226 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.227 ()Status: Up
+Host: 162.117.97.227 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.228 ()Status: Up
+Host: 162.117.97.228 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.229 ()Status: Up
+Host: 162.117.97.229 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.230 ()Status: Up
+Host: 162.117.97.230 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.231 ()Status: Up
+Host: 162.117.97.231 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.232 ()Status: Up
+Host: 162.117.97.232 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.233 ()Status: Up
+Host: 162.117.97.233 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.234 ()Status: Up
+Host: 162.117.97.234 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.235 ()Status: Up
+Host: 162.117.97.235 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.236 ()Status: Up
+Host: 162.117.97.236 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.237 ()Status: Up
+Host: 162.117.97.237 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.238 ()Status: Up
+Host: 162.117.97.238 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.239 ()Status: Up
+Host: 162.117.97.239 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.240 ()Status: Up
+Host: 162.117.97.240 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.241 ()Status: Up
+Host: 162.117.97.241 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.242 ()Status: Up
+Host: 162.117.97.242 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.243 ()Status: Up
+Host: 162.117.97.243 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.244 ()Status: Up
+Host: 162.117.97.244 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.245 ()Status: Up
+Host: 162.117.97.245 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.246 ()Status: Up
+Host: 162.117.97.246 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.247 ()Status: Up
+Host: 162.117.97.247 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.248 ()Status: Up
+Host: 162.117.97.248 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.249 ()Status: Up
+Host: 162.117.97.249 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.250 ()Status: Up
+Host: 162.117.97.250 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.251 ()Status: Up
+Host: 162.117.97.251 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.252 ()Status: Up
+Host: 162.117.97.252 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.253 ()Status: Up
+Host: 162.117.97.253 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.254 ()Status: Up
+Host: 162.117.97.254 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.255 ()Status: Up
+Host: 162.117.97.255 ()Ports: 44818/open|filtered/udp//EtherNetIP-2///
+Host: 162.117.97.3 ()Status: Up
+Host: 162.117.97.3 ()Ports: 44818/closed/udp//EtherNetIP-2///
+# Nmap done at Tue Sep 29 18:28:41 2020 -- 256 IP addresses (170 hosts up) scanned in 13.17 seconds
+%                                                                                                                        jburt@Johns-MacBook-Pro ~ % sudo nmap --script enip-info -sU -p 44818 -oG - 162.117.97.0/24                     192.168.34.1192.168.34. 0/24
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-09-29 18:30 CDT
+Nmap scan report for 192.168.34.1
+Host is up (0.0041s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:23:33:76:D1:C5 (Cisco Systems)
+
+Nmap scan report for 192.168.34.10
+Host is up (0.0079s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Programmable Logic Controller (14)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1769-L33ERM/A LOGIX5333ERM
+|   serialNumber: 0x603f5f81
+|   productCode: 110
+|   revision: 21.11
+|   status: 0x0030
+|   state: 0x03
+|_  deviceIp: 192.168.34.10
+MAC Address: E4:90:69:9E:C7:CB (Rockwell Automation)
+
+Nmap scan report for 192.168.34.11
+Host is up (0.019s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Human-Machine Interface (24)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PanelView Plus_6 Compact 1000
+|   serialNumber: 0x00c475a0
+|   productCode: 147
+|   revision: 6.100
+|   status: 0x0060
+|   state: 0xff
+|_  deviceIp: 192.168.34.11
+MAC Address: 00:1D:9C:CE:15:88 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.12
+Host is up (0.0097s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: PowerFlex 525 (150)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 525 3P 460V    .50HP
+|   serialNumber: 0x808db9f2
+|   productCode: 9
+|   revision: 5.1
+|   status: 0x0061
+|   state: 00
+|_  deviceIp: 192.168.34.12
+MAC Address: F4:54:33:FB:D8:E2 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.13
+Host is up (0.011s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: PowerFlex 525 (150)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 525 3P 460V   1.0HP
+|   serialNumber: 0x808951a0
+|   productCode: 9
+|   revision: 2.2
+|   status: 0x0061
+|   state: 00
+|_  deviceIp: 192.168.34.13
+MAC Address: F4:54:33:F7:7A:2C (Rockwell Automation)
+
+Nmap scan report for 192.168.34.14
+Host is up (0.012s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: PowerFlex 525 (150)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 525 3P 460V    .50HP
+|   serialNumber: 0xe0002328
+|   productCode: 9
+|   revision: 1.5
+|   status: 0x0061
+|   state: 00
+|_  deviceIp: 192.168.34.14
+MAC Address: 00:1D:9C:E1:1B:73 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.15
+Host is up (0.013s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: CIP Motion Drive (37)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 2198-H025-ERS
+|   serialNumber: 0x58343561
+|   productCode: 49
+|   revision: 7.1
+|   status: 0000
+|   state: 0x03
+|_  deviceIp: 192.168.34.15
+MAC Address: F4:54:33:88:7F:A6 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.16
+Host is up (0.013s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: CIP Motion Drive (37)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 2198-H008-ERS
+|   serialNumber: 0x29309922
+|   productCode: 47
+|   revision: 1.4
+|   status: 0x5246
+|   state: 0x03
+|_  deviceIp: 192.168.34.16
+MAC Address: 00:1D:9C:B2:34:6A (Rockwell Automation)
+
+Nmap scan report for 192.168.34.17
+Host is up (0.0099s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: CIP Motion Drive (37)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 2198-H008-ERS
+|   serialNumber: 0x29309927
+|   productCode: 47
+|   revision: 1.4
+|   status: 0x5246
+|   state: 0x03
+|_  deviceIp: 192.168.34.17
+MAC Address: 00:1D:9C:B1:E3:4A (Rockwell Automation)
+
+Nmap scan report for 192.168.34.18
+Host is up (0.011s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: CIP Motion Drive (37)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 2198-H008-ERS
+|   serialNumber: 0x29309917
+|   productCode: 47
+|   revision: 1.4
+|   status: 0x5246
+|   state: 0x03
+|_  deviceIp: 192.168.34.18
+MAC Address: 00:1D:9C:B2:12:01 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.20
+Host is up (0.0069s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Programmable Logic Controller (14)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1769-L33ERM/A LOGIX5333ERM
+|   serialNumber: 0x603c0255
+|   productCode: 110
+|   revision: 21.11
+|   status: 0x0030
+|   state: 0x03
+|_  deviceIp: 192.168.34.20
+MAC Address: E4:90:69:9E:18:1C (Rockwell Automation)
+
+Nmap scan report for 192.168.34.21
+Host is up (0.0066s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Human-Machine Interface (24)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PanelView Plus_6 Compact 1000
+|   serialNumber: 0x00c6312e
+|   productCode: 147
+|   revision: 6.100
+|   status: 0x0060
+|   state: 0xff
+|_  deviceIp: 192.168.34.21
+MAC Address: 00:1D:9C:CE:B1:B1 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.22
+Host is up (0.0075s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: PowerFlex 525 (150)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 525 3P 460V   1.0HP
+|   serialNumber: 0xe0075c67
+|   productCode: 9
+|   revision: 2.2
+|   status: 0x0061
+|   state: 00
+|_  deviceIp: 192.168.34.22
+MAC Address: 00:1D:9C:E8:46:2F (Rockwell Automation)
+
+Nmap scan report for 192.168.34.23
+Host is up (0.0083s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: PowerFlex 525 (150)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 525 3P 460V    .50HP
+|   serialNumber: 0xe008c96b
+|   productCode: 9
+|   revision: 2.2
+|   status: 0x0061
+|   state: 00
+|_  deviceIp: 192.168.34.23
+MAC Address: 00:1D:9C:E9:C1:9A (Rockwell Automation)
+
+Nmap scan report for 192.168.34.24
+Host is up (0.0089s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: PowerFlex 525 (150)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 525 3P 460V    .50HP
+|   serialNumber: 0x8086d9ca
+|   productCode: 9
+|   revision: 5.2
+|   status: 0x0061
+|   state: 00
+|_  deviceIp: 192.168.34.24
+MAC Address: F4:54:33:F5:80:DC (Rockwell Automation)
+
+Nmap scan report for 192.168.34.25
+Host is up (0.0089s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: CIP Motion Drive (37)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 2198-H025-ERS
+|   serialNumber: 0x22727123
+|   productCode: 49
+|   revision: 2.6
+|   status: 0x5453
+|   state: 0x03
+|_  deviceIp: 192.168.34.25
+MAC Address: 00:00:BC:B6:BD:18 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.26
+Host is up (0.010s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: CIP Motion Drive (37)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 2198-H008-ERS
+|   serialNumber: 0x29309932
+|   productCode: 47
+|   revision: 2.6
+|   status: 0x5453
+|   state: 0x03
+|_  deviceIp: 192.168.34.26
+MAC Address: 00:1D:9C:B1:E4:5E (Rockwell Automation)
+
+Nmap scan report for 192.168.34.27
+Host is up (0.013s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: CIP Motion Drive (37)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 2198-H008-ERS
+|   serialNumber: 0x29309913
+|   productCode: 47
+|   revision: 2.6
+|   status: 0x5453
+|   state: 0x03
+|_  deviceIp: 192.168.34.27
+MAC Address: 00:1D:9C:B2:34:42 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.28
+Host is up (0.014s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: CIP Motion Drive (37)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 2198-H008-ERS
+|   serialNumber: 0x29287259
+|   productCode: 47
+|   revision: 1.4
+|   status: 0x5246
+|   state: 0x03
+|_  deviceIp: 192.168.34.28
+MAC Address: 00:1D:9C:B1:74:E8 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.30
+Host is up (0.023s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1768-ENBT/A
+|   serialNumber: 0x4052f0c4
+|   productCode: 151
+|   revision: 4.1
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.34.30
+MAC Address: 00:00:BC:65:A9:87 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.40
+Host is up (0.020s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1768-ENBT/A
+|   serialNumber: 0x603bf41c
+|   productCode: 151
+|   revision: 4.4
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.34.40
+MAC Address: E4:90:69:9E:14:8F (Rockwell Automation)
+
+Nmap scan report for 192.168.34.50
+Host is up (0.020s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Programmable Logic Controller (14)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1769-L30ER/A LOGIX5330ER
+|   serialNumber: 0x603d340d
+|   productCode: 106
+|   revision: 20.12
+|   status: 0x0030
+|   state: 0x03
+|_  deviceIp: 192.168.34.50
+MAC Address: E4:90:69:9E:54:FA (Rockwell Automation)
+
+Nmap scan report for 192.168.34.51
+Host is up (0.037s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Human-Machine Interface (24)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PanelView Plus_6 700
+|   serialNumber: 0x009d187f
+|   productCode: 45
+|   revision: 3.1
+|   status: 0x0060
+|   state: 0xff
+|_  deviceIp: 192.168.34.51
+MAC Address: 00:1D:9C:C1:D7:F7 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.52
+Host is up (0.041s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Murrelektronik GmbH (640)
+|   productName: Cube67+ BN-E
+|   serialNumber: 0xb8e4079e
+|   productCode: 56525
+|   revision: 1.1
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.34.52
+MAC Address: 00:0F:9E:07:E4:B8 (Murrelektronik GmbH)
+
+Nmap scan report for 192.168.34.100
+Host is up (0.034s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1768-ENBT/A
+|   serialNumber: 0x602d6640
+|   productCode: 151
+|   revision: 4.1
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.34.100
+MAC Address: 00:00:BC:D0:1B:C9 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.101
+Host is up (0.033s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1756-EN2TR/C
+|   serialNumber: 0x00eb9bf8
+|   productCode: 200
+|   revision: 10.10
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.34.101
+MAC Address: 00:1D:9C:DA:FE:6A (Rockwell Automation)
+
+Nmap scan report for 192.168.34.102
+Host is up (0.0018s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1768-ENBT/A
+|   serialNumber: 0x6040dbe7
+|   productCode: 151
+|   revision: 4.4
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.34.102
+MAC Address: E4:90:69:9F:11:D0 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.103
+Host is up (0.034s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1756-EN2TR/C
+|   serialNumber: 0x00eb9b5a
+|   productCode: 200
+|   revision: 10.10
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.34.103
+MAC Address: 00:1D:9C:DA:FD:CC (Rockwell Automation)
+
+Nmap scan report for 192.168.34.104
+Host is up (0.069s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Programmable Logic Controller (14)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1766-L32BXB C/21.02
+|   serialNumber: 0x60ebae4f
+|   productCode: 90
+|   revision: 2.21
+|   status: 0x0064
+|   state: 00
+|_  deviceIp: 192.168.34.104
+MAC Address: 5C:88:16:9C:A9:4F (Rockwell Automation)
+
+Nmap scan report for 192.168.34.105
+Host is up (0.011s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Human-Machine Interface (24)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 2711R-T7T/A
+|   serialNumber: 0x6001212a
+|   productCode: 149
+|   revision: 5.12
+|   status: 0x0034
+|   state: 0x02
+|_  deviceIp: 192.168.34.105
+MAC Address: F4:54:33:4F:B9:17 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.106
+Host is up (0.012s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: PowerFlex 525 (150)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 525 3P 460V   3.0HP
+|   serialNumber: 0x8082c43a
+|   productCode: 9
+|   revision: 5.2
+|   status: 0x0061
+|   state: 00
+|_  deviceIp: 192.168.34.106
+MAC Address: 18:4C:08:F0:09:1A (Rockwell Automation)
+
+Nmap scan report for 192.168.34.107
+Host is up (0.0036s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: PowerFlex 525 (150)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 525 3P 460V   1.0HP
+|   serialNumber: 0x8082e057
+|   productCode: 9
+|   revision: 5.2
+|   status: 0x0061
+|   state: 00
+|_  deviceIp: 192.168.34.107
+MAC Address: 18:4C:08:F0:24:47 (Rockwell Automation)
+
+Nmap scan report for 192.168.34.254
+Host is up (0.000076s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+
+Nmap done: 256 IP addresses (33 hosts up) scanned in 3.36 seconds
+%                                                                                                                        jburt@Johns-MacBook-Pro ~ % b

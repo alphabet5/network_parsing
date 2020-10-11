@@ -1,0 +1,5 @@
+/.idea/*
+.DS_Store
+input/*
+eip_info.txt
+output.csv
