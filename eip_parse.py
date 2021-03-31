@@ -10,7 +10,7 @@ replace = {'Communications Adapter (12)': 'Comm Adapter ',
 types = list()
 
 if __name__ == '__main__':
-    with open('eip_info.txt', 'r') as f:
+    with open('enip-info.txt', 'r') as f:
         eip_info = f.read()
     for m in re.finditer(r'Nmap scan report for (\d+\.\d+\.\d+\.\d+).{5,100}44818/udp open.*?type: (.*?)\n.*?productName: (.*?)\n',
                          eip_info,
@@ -20,7 +20,7 @@ if __name__ == '__main__':
         if m.group(2) == m.group(3):
             output = m.group(1) + '\t' + m.group(2)
         else:
-            output = m.group(1) + '\t' + m.group(2) + m.group(3)
+            output = m.group(1) + '\t' + m.group(2) + '\t' + m.group(3)
         for x in replace.keys():
             output.replace(x, (replace[x]))
         print(output)

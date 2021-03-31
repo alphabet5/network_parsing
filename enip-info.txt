@@ -1,0 +1,1354 @@
+Nmap scan report for 192.168.1.1
+Host is up (0.00052s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:90:7F:D7:B2:5E (WatchGuard Technologies)
+
+Nmap scan report for 192.168.1.8
+Host is up (0.00056s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 28:63:36:C2:C0:1C (Siemens AG)
+
+Nmap scan report for 192.168.1.10
+Host is up (0.0099s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1756-ENBT/A
+|   serialNumber: 0x001702de
+|   productCode: 58
+|   revision: 6.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.10
+MAC Address: 00:00:BC:05:7A:B2 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.11
+Host is up (0.0066s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x405742e9
+|   productCode: 90
+|   revision: 4.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.11
+MAC Address: 00:00:BC:66:59:DD (Rockwell Automation)
+
+Nmap scan report for 192.168.1.12
+Host is up (0.00077s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 28:63:36:BB:3A:04 (Siemens AG)
+
+Nmap scan report for 192.168.1.13
+Host is up (0.00099s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1756-ENBT/A
+|   serialNumber: 0x0079751b
+|   productCode: 58
+|   revision: 6.1
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.13
+MAC Address: 00:00:BC:C8:13:EC (Rockwell Automation)
+
+Nmap scan report for 192.168.1.14
+Host is up (0.0012s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1756-ENBT/A
+|   serialNumber: 0x00829a44
+|   productCode: 58
+|   revision: 6.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.14
+MAC Address: 00:00:BC:D1:99:74 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.15
+Host is up (0.0018s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x405901fa
+|   productCode: 90
+|   revision: 4.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.15
+MAC Address: 00:00:BC:66:C1:31 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.16
+Host is up (0.0018s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x40586205
+|   productCode: 90
+|   revision: 4.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.16
+MAC Address: 00:00:BC:66:97:46 (Rockwell Automation)
+
+Nmap scan report for homeassistant (192.168.1.17)
+Host is up (0.0019s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x405862a8
+|   productCode: 90
+|   revision: 4.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.17
+MAC Address: 00:00:BC:66:97:E9 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.19
+Host is up (0.0061s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x40586271
+|   productCode: 90
+|   revision: 4.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.19
+MAC Address: 00:00:BC:66:97:B2 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.20
+Host is up (0.0066s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x405741ab
+|   productCode: 90
+|   revision: 4.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.20
+MAC Address: 00:00:BC:66:58:9F (Rockwell Automation)
+
+Nmap scan report for 192.168.1.21
+Host is up (0.0017s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x4058ae3b
+|   productCode: 90
+|   revision: 4.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.21
+MAC Address: 00:00:BC:66:AB:81 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.22
+Host is up (0.0016s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x4058ac85
+|   productCode: 90
+|   revision: 4.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.22
+MAC Address: 00:00:BC:66:A9:CB (Rockwell Automation)
+
+Nmap scan report for 192.168.1.23
+Host is up (0.0017s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1756-ENBT/A
+|   serialNumber: 0x007a4e3a
+|   productCode: 58
+|   revision: 6.1
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.23
+MAC Address: 00:00:BC:C8:3E:8E (Rockwell Automation)
+
+Nmap scan report for 192.168.1.24
+Host is up (0.00072s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 28:63:36:BB:41:85 (Siemens AG)
+
+Nmap scan report for 192.168.1.25
+Host is up (0.0018s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x605dc70e
+|   productCode: 90
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.25
+MAC Address: E4:90:69:A5:88:7C (Rockwell Automation)
+
+Nmap scan report for 192.168.1.26
+Host is up (0.0027s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x4058ae59
+|   productCode: 90
+|   revision: 4.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.26
+MAC Address: 00:00:BC:66:AB:9F (Rockwell Automation)
+
+Nmap scan report for 192.168.1.27
+Host is up (0.0027s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x60205658
+|   productCode: 90
+|   revision: 4.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.27
+MAC Address: 00:00:BC:CD:24:7F (Rockwell Automation)
+
+Nmap scan report for 192.168.1.28
+Host is up (0.0031s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x6020f89a
+|   productCode: 90
+|   revision: 4.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.28
+MAC Address: 00:00:BC:CD:40:55 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.29
+Host is up (0.00069s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Human-Machine Interface (24)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PanelView-Plus
+|   serialNumber: 0x2c6d7f00
+|   productCode: 17
+|   revision: 3.23
+|   status: 0x0060
+|   state: 0xff
+|_  deviceIp: 192.168.1.29
+MAC Address: 00:00:BC:D2:2A:E1 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.30
+Host is up (0.0030s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x60205715
+|   productCode: 90
+|   revision: 4.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.30
+MAC Address: 00:00:BC:CD:25:3C (Rockwell Automation)
+
+Nmap scan report for 192.168.1.31
+Host is up (0.0069s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x60279ea5
+|   productCode: 90
+|   revision: 4.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.31
+MAC Address: 00:00:BC:CE:A2:1D (Rockwell Automation)
+
+Nmap scan report for 192.168.1.40
+Host is up (0.014s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Unknown Device Type (143)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 755
+|   serialNumber: 0x20357a05
+|   productCode: 2192
+|   revision: 2.10
+|   status: 0x0061
+|   state: 00
+|_  deviceIp: 192.168.1.40
+MAC Address: 00:00:BC:B5:A9:2F (Rockwell Automation)
+
+Nmap scan report for 192.168.1.42
+Host is up (1.1s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Unknown Device Type (143)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 755
+|   serialNumber: 0x203f3b2c
+|   productCode: 2192
+|   revision: 6.3
+|   status: 0x0061
+|   state: 00
+|_  deviceIp: 192.168.1.42
+MAC Address: 00:00:BC:B5:FC:A3 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.43
+Host is up (0.0035s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x60608ce5
+|   productCode: 90
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.43
+MAC Address: E4:90:69:A6:42:06 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.44
+Host is up (0.0034s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x60608d87
+|   productCode: 90
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.44
+MAC Address: E4:90:69:A6:42:A8 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.45
+Host is up (0.0040s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x6089153a
+|   productCode: 90
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.45
+MAC Address: F4:54:33:96:74:A6 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.46
+Host is up (0.00092s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Unknown Device Type (142)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PowerFlex 753
+|   serialNumber: 0x2035570c
+|   productCode: 1168
+|   revision: 9.1
+|   status: 0x0061
+|   state: 00
+|_  deviceIp: 192.168.1.46
+MAC Address: 00:00:BC:B6:19:1B (Rockwell Automation)
+
+Nmap scan report for 192.168.1.51
+Host is up (0.00090s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: D0:50:99:A0:B3:E2 (ASRock Incorporation)
+
+Nmap scan report for 192.168.1.52
+Host is up (0.0011s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 70:85:C2:E0:2C:FF (ASRock Incorporation)
+
+Nmap scan report for 192.168.1.57
+Host is up (0.00064s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: D0:50:99:A0:B4:C2 (ASRock Incorporation)
+
+Nmap scan report for 192.168.1.59
+Host is up (0.00098s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: D0:50:99:A0:B4:1E (ASRock Incorporation)
+
+Nmap scan report for 192.168.1.60
+Host is up (0.00097s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:10:F3:43:28:E7 (Nexcom International)
+
+Nmap scan report for 192.168.1.65
+Host is up (0.00096s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:03:27:03:7B:FA (Act'l)
+
+Nmap scan report for 192.168.1.70
+Host is up (0.00093s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:1E:67:F2:84:58 (Intel Corporate)
+
+Nmap scan report for 192.168.1.71
+Host is up (0.00066s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:0C:29:5D:1C:30 (VMware)
+
+Nmap scan report for 192.168.1.72
+Host is up (0.00060s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:0C:29:C8:0E:A0 (VMware)
+
+Nmap scan report for 192.168.1.73
+Host is up (0.00060s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:0C:29:28:82:8C (VMware)
+
+Nmap scan report for 192.168.1.74
+Host is up (0.00097s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:0C:29:FF:70:0F (VMware)
+
+Nmap scan report for 192.168.1.75
+Host is up (0.00093s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:0C:29:58:39:C9 (VMware)
+
+Nmap scan report for 192.168.1.80
+Host is up (0.00094s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:1E:67:F2:9C:E8 (Intel Corporate)
+
+Nmap scan report for 192.168.1.81
+Host is up (0.00093s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:0C:29:88:D2:23 (VMware)
+
+Nmap scan report for 192.168.1.82
+Host is up (1.1s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:0C:29:C3:FF:29 (VMware)
+
+Nmap scan report for 192.168.1.83
+Host is up (1.1s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:0C:29:1B:2A:55 (VMware)
+
+Nmap scan report for 192.168.1.84
+Host is up (0.97s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:0C:29:1A:8E:C0 (VMware)
+
+Nmap scan report for 192.168.1.85
+Host is up (0.00072s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 00:0C:29:2D:E4:89 (VMware)
+
+Nmap scan report for 192.168.1.100
+Host is up (0.0019s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 7026TX
+|   serialNumber: 0xaf7ea360
+|   productCode: 720
+|   revision: 1.3
+|   status: 0x0174
+|   state: 0x03
+|_  deviceIp: 192.168.1.100
+MAC Address: 00:07:AF:7E:A3:60 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.101
+Host is up (0.0013s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 7026TX
+|   serialNumber: 0xaf708ae0
+|   productCode: 720
+|   revision: 1.3
+|   status: 0x0174
+|   state: 0x03
+|_  deviceIp: 192.168.1.101
+MAC Address: 00:07:AF:70:8A:E0 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.102
+Host is up (0.0012s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 708TX
+|   serialNumber: 0xaff8bea0
+|   productCode: 701
+|   revision: 1.2
+|   status: 0x0174
+|   state: 0x03
+|_  deviceIp: 192.168.1.102
+MAC Address: 00:07:AF:F8:BE:A0 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.104
+Host is up (0.0016s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 708TX
+|   serialNumber: 0xaff8c010
+|   productCode: 701
+|   revision: 1.2
+|   status: 0x0174
+|   state: 0x03
+|_  deviceIp: 192.168.1.104
+MAC Address: 00:07:AF:F8:C0:10 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.105
+Host is up (0.0016s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 7010TX
+|   serialNumber: 0xaff8bba0
+|   productCode: 713
+|   revision: 1.2
+|   status: 0x0174
+|   state: 0x03
+|_  deviceIp: 192.168.1.105
+MAC Address: 00:07:AF:F8:BB:A0 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.108
+Host is up (0.0016s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 708TX
+|   serialNumber: 0xaff75a80
+|   productCode: 701
+|   revision: 1.3
+|   status: 0x0174
+|   state: 0x03
+|_  deviceIp: 192.168.1.108
+MAC Address: 00:07:AF:F7:5A:80 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.109
+Host is up (0.0016s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 708TX
+|   serialNumber: 0xafee06a0
+|   productCode: 701
+|   revision: 1.6
+|   status: 0x0170
+|   state: 0x03
+|_  deviceIp: 192.168.1.109
+MAC Address: 00:07:AF:EE:06:A0 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.110
+Host is up (0.0016s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 7018TX
+|   serialNumber: 0xaf70d300
+|   productCode: 708
+|   revision: 1.6
+|   status: 0x0170
+|   state: 0x03
+|_  deviceIp: 192.168.1.110
+MAC Address: 00:07:AF:70:D3:00 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.111
+Host is up (3.2s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 7010TX
+|   serialNumber: 0xafe7fae0
+|   productCode: 713
+|   revision: 1.3
+|   status: 0x0174
+|   state: 0x03
+|_  deviceIp: 192.168.1.111
+MAC Address: 00:07:AF:E7:FA:E0 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.112
+Host is up (0.0017s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 7018TX
+|   serialNumber: 0xaf6efc20
+|   productCode: 708
+|   revision: 1.6
+|   status: 0x0170
+|   state: 0x03
+|_  deviceIp: 192.168.1.112
+MAC Address: 00:07:AF:6E:FC:20 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.113
+Host is up (0.0017s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 7010TX
+|   serialNumber: 0xafe7dc50
+|   productCode: 713
+|   revision: 1.3
+|   status: 0x0174
+|   state: 0x03
+|_  deviceIp: 192.168.1.113
+MAC Address: 00:07:AF:E7:DC:50 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.114
+Host is up (0.0017s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 7010TX
+|   serialNumber: 0xafe7cfe0
+|   productCode: 713
+|   revision: 1.3
+|   status: 0x0174
+|   state: 0x03
+|_  deviceIp: 192.168.1.114
+MAC Address: 00:07:AF:E7:CF:E0 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.115
+Host is up (0.0017s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 7010TX
+|   serialNumber: 0xafe81d30
+|   productCode: 713
+|   revision: 1.3
+|   status: 0x0174
+|   state: 0x03
+|_  deviceIp: 192.168.1.115
+MAC Address: 00:07:AF:E8:1D:30 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.116
+Host is up (0.0017s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-Tron 7010TX
+|   serialNumber: 0xafe50f80
+|   productCode: 713
+|   revision: 1.7
+|   status: 0x0130
+|   state: 0x03
+|_  deviceIp: 192.168.1.116
+MAC Address: 00:07:AF:E5:0F:80 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.117
+Host is up (0.0017s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 7010TX
+|   serialNumber: 0xafe81d80
+|   productCode: 713
+|   revision: 1.3
+|   status: 0x0174
+|   state: 0x03
+|_  deviceIp: 192.168.1.117
+MAC Address: 00:07:AF:E8:1D:80 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.118
+Host is up (0.0017s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:07:AF:E5:1C:30 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.119
+Host is up (0.0017s latency).
+
+PORT      STATE         SERVICE
+44818/udp open|filtered EtherNetIP-2
+MAC Address: 00:07:AF:E2:3D:10 (Red Lion Controls)
+
+Nmap scan report for 192.168.1.120
+Host is up (0.00072s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1756-EN2T/D
+|   serialNumber: 0x00d013a5
+|   productCode: 166
+|   revision: 10.7
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.120
+MAC Address: 00:1D:9C:D1:B7:46 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.121
+Host is up (0.0017s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x60898a47
+|   productCode: 90
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.121
+MAC Address: F4:54:33:96:86:EB (Rockwell Automation)
+
+Nmap scan report for 192.168.1.122
+Host is up (0.0017s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x60a71b77
+|   productCode: 90
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.122
+MAC Address: F4:54:33:9E:F4:EB (Rockwell Automation)
+
+Nmap scan report for 192.168.1.123
+Host is up (0.00084s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f8021e
+|   productCode: 1030
+|   revision: 1.4
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.123
+MAC Address: 00:02:01:80:15:A7 (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.124
+Host is up (0.00081s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f8021d
+|   productCode: 1030
+|   revision: 1.4
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.124
+MAC Address: 00:02:01:80:15:A6 (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.125
+Host is up (0.00082s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f80189
+|   productCode: 1030
+|   revision: 1.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.125
+MAC Address: 00:02:01:80:15:11 (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.126
+Host is up (0.00080s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f80249
+|   productCode: 1030
+|   revision: 1.4
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.126
+MAC Address: 00:02:01:80:15:D2 (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.127
+Host is up (0.00080s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f80224
+|   productCode: 1030
+|   revision: 1.4
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.127
+MAC Address: 00:02:01:80:15:AD (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.128
+Host is up (0.00080s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f80bf2
+|   productCode: 1030
+|   revision: 1.4
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.128
+MAC Address: 00:02:01:80:1F:4E (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.129
+Host is up (0.00080s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f80159
+|   productCode: 1030
+|   revision: 1.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.129
+MAC Address: 00:02:01:80:14:E1 (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.130
+Host is up (0.00079s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f80192
+|   productCode: 1030
+|   revision: 1.4
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.130
+MAC Address: 00:02:01:80:15:1B (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.131
+Host is up (0.0033s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x6086617d
+|   productCode: 90
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.131
+MAC Address: F4:54:33:95:DE:46 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.132
+Host is up (0.00079s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f80253
+|   productCode: 1030
+|   revision: 1.4
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.132
+MAC Address: 00:02:01:80:15:DC (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.133
+Host is up (0.00081s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 28:63:36:57:A9:5E (Siemens AG)
+
+Nmap scan report for 192.168.1.134
+Host is up (0.0035s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x608913e3
+|   productCode: 90
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.134
+MAC Address: F4:54:33:96:73:4F (Rockwell Automation)
+
+Nmap scan report for 192.168.1.135
+Host is up (0.0040s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x60a2bb0a
+|   productCode: 90
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.135
+MAC Address: F4:54:33:9D:A2:7C (Rockwell Automation)
+
+Nmap scan report for 192.168.1.136
+Host is up (0.00077s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f8023b
+|   productCode: 1030
+|   revision: 1.4
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.136
+MAC Address: 00:02:01:80:15:C4 (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.137
+Host is up (0.00076s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f80188
+|   productCode: 1030
+|   revision: 1.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.137
+MAC Address: 00:02:01:80:15:10 (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.138
+Host is up (0.00076s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f80160
+|   productCode: 1030
+|   revision: 1.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.138
+MAC Address: 00:02:01:80:14:E8 (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.139
+Host is up (0.0059s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x60866105
+|   productCode: 90
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.139
+MAC Address: F4:54:33:95:DD:CE (Rockwell Automation)
+
+Nmap scan report for 192.168.1.140
+Host is up (0.00075s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f801f4
+|   productCode: 1030
+|   revision: 1.4
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.140
+MAC Address: 00:02:01:80:15:7D (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.141
+Host is up (0.00079s latency).
+
+PORT      STATE  SERVICE
+44818/udp closed EtherNetIP-2
+MAC Address: 28:63:36:A7:AA:79 (Siemens AG)
+
+Nmap scan report for 192.168.1.142
+Host is up (0.0022s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x609b6ee5
+|   productCode: 90
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.142
+MAC Address: F4:54:33:9B:99:A3 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.143
+Host is up (0.00082s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x609b6e5b
+|   productCode: 90
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.143
+MAC Address: F4:54:33:9B:99:19 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.144
+Host is up (0.0013s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x608660c5
+|   productCode: 90
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.144
+MAC Address: F4:54:33:95:DD:8E (Rockwell Automation)
+
+Nmap scan report for 192.168.1.145
+Host is up (0.00057s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f80180
+|   productCode: 1030
+|   revision: 1.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.145
+MAC Address: 00:02:01:80:15:08 (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.146
+Host is up (0.00077s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Generic Device (keyable) (43)
+|   vendor: ifm efector] = inc. (322)
+|   productName: IO-Link master EIP 8P IP20
+|   serialNumber: 0x95f80146
+|   productCode: 1030
+|   revision: 1.3
+|   status: 0x0064
+|   state: 0x03
+|_  deviceIp: 192.168.1.146
+MAC Address: 00:02:01:80:14:CE (IFM Electronic gmbh)
+
+Nmap scan report for 192.168.1.147
+Host is up (0.0025s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x609b6cef
+|   productCode: 90
+|   revision: 4.3
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.147
+MAC Address: F4:54:33:9B:97:AD (Rockwell Automation)
+
+Nmap scan report for 192.168.1.148
+Host is up (0.00076s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Human-Machine Interface (24)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: PanelView Plus_6 1000
+|   serialNumber: 0x008d8b96
+|   productCode: 47
+|   revision: 3.1
+|   status: 0x0060
+|   state: 0xff
+|_  deviceIp: 192.168.1.148
+MAC Address: 00:1D:9C:BC:DE:1F (Rockwell Automation)
+
+Nmap scan report for 192.168.1.149
+Host is up (0.0026s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: Rockwell Automation/Allen-Bradley (1)
+|   productName: 1794-AENT/B
+|   serialNumber: 0x4058ae1f
+|   productCode: 90
+|   revision: 4.2
+|   status: 0x0060
+|   state: 0x03
+|_  deviceIp: 192.168.1.149
+MAC Address: 00:00:BC:66:AB:65 (Rockwell Automation)
+
+Nmap scan report for 192.168.1.150
+Host is up (0.0021s latency).
+
+PORT      STATE SERVICE
+44818/udp open  EtherNet-IP-2
+| enip-info:
+|   type: Communications Adapter (12)
+|   vendor: N-Tron (1006)
+|   productName: N-TRON 7018TX
+|   serialNumber: 0xaf705640
+|   productCode: 708
+|   revision: 1.6
+|   status: 0x0170
+|   state: 0x03
+|_  deviceIp: 192.168.1.150
+MAC Address: 00:07:AF:70:56:40 (Red Lion Controls)
